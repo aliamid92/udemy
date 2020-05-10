@@ -5,6 +5,18 @@ public class Acount {
     private String Email;
     private String phonenumber;
 
+
+    public Acount(String accountnumber, double balance, String customername, String Email, String phonenumber){
+        System.out.println("The cunstructor is called");
+        this.accountnumber = accountnumber;
+        this.balance = balance;
+        this.customername = customername;
+        this.Email = Email;
+        this.phonenumber = phonenumber;
+    }
+
+
+
     public void deposite(double money) {
         this.balance = +money;
         System.out.println("You have deposited " + money + "Euro " + "and Remaining is " + this.balance);
