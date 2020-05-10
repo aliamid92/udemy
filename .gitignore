@@ -1,0 +1,6 @@
+.idea
+.out    
+*.iml   
+
+/out/production/udemy/Acount.class
+/out/production/udemy/Main.class
