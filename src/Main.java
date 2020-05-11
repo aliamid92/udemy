@@ -6,9 +6,9 @@ public class Main {
         Bob.withdrawal(250);
         Bob.withdrawal(251);
 
-        VipCustomer John = new VipCustomer();
-        VipCustomer Jafar = new VipCustomer("jafar",0.00,"jafar@gmail.com");
-        VipCustomer Alex = new VipCustomer("Alex",15);
+        VipCustomer ahmad = new VipCustomer();
+        VipCustomer ali = new VipCustomer("jafar",0.00,"jafar@gmail.com");
+        VipCustomer asgar = new VipCustomer("Alex",15);
 
 
 
