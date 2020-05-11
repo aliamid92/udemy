@@ -10,9 +10,6 @@ public class Main {
         VipCustomer Jafar = new VipCustomer("jafar",0.00,"jafar@gmail.com");
         VipCustomer Alex = new VipCustomer("Alex",15);
 
-        System.out.println(John.getName() + John.getEmail());
-        System.out.println(Jafar.getName() + Jafar.getEmail());
-        System.out.println(Alex.getName() + Alex.getEmail());
 
 
         }
